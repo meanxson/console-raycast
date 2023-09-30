@@ -5,11 +5,23 @@
 #ifndef CONSOLE_RAYCAST_PLAYER_H
 #define CONSOLE_RAYCAST_PLAYER_H
 
+#include "Windows.h"
+
 
 class Player {
+public:
+    Player();
+
+    Player(float startX, float startY, float startA, float speed);
+
+    ~Player() = default;
+
+
 private:
-    int m_x;
-    int m_y;
+    float m_x;
+    float m_y;
+    float m_a;
+    float m_speed;
 };
 
 

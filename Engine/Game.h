@@ -6,6 +6,11 @@
 #define CONSOLE_RAYCAST_GAME_H
 
 #include <iostream>
+#include <vector>
+#include <utility>
+#include <algorithm>
+#include <chrono>
+
 #include "Windows.h"
 
 
@@ -15,6 +20,8 @@ class Game {
     Game(int width, int height, float fov, int depth);
 
     ~Game() = default;
+
+    float getGameFps();
 
 private:
     int m_screenWidth;
