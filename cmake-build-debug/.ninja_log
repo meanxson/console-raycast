@@ -1,0 +1,7 @@
+# ninja log v5
+3	287	7179179314343544	build.ninja	3252f03d8eb03c4e
+1	1247	7179179327996625	CMakeFiles/console_raycast.dir/Engine/Player.cpp.obj	e534770a08316b04
+10	1552	7179179331047313	CMakeFiles/console_raycast.dir/Engine/Map.cpp.obj	6a409d3439fb2c93
+15	1720	7179179332727693	CMakeFiles/console_raycast.dir/Engine/Game.cpp.obj	5b07bf8ab2a1a63f
+21	1781	7179179333337838	CMakeFiles/console_raycast.dir/main.cpp.obj	28abff3ac600bc6
+1781	1899	7179179334478091	console_raycast.exe	bab16cd99cf441a7

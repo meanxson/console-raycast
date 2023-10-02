@@ -12,3 +12,31 @@ Player::Player(float startX, float startY, float startA, float speed) : m_x(star
                                                                         m_speed(speed) {
 
 }
+
+float Player::getX() {
+    return m_x;
+}
+
+float Player::getY() {
+    return m_y;
+}
+
+float Player::getAngle() {
+    return m_a;
+}
+
+float Player::getSpeed() {
+    return m_speed;
+}
+
+void Player::setX(float x) {
+    m_x = x;
+}
+
+void Player::setY(float y) {
+    m_y = y;
+}
+
+void Player::setAngle(float a) {
+    m_a = a;
+}

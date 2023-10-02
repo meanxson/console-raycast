@@ -16,6 +16,14 @@ public:
 
     ~Player() = default;
 
+    float getX();
+    float getY();
+    float getAngle();
+    float getSpeed();
+
+    void setX(float x);
+    void setY(float y);
+    void setAngle(float a);
 
 private:
     float m_x;

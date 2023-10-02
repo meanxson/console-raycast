@@ -15,13 +15,16 @@
 
 
 class Game {
+
+public:
     Game();
 
     Game(int width, int height, float fov, int depth);
 
     ~Game() = default;
 
-    float getGameFps();
+    int getScreenWidth();
+    int getScreenHeight();
 
 private:
     int m_screenWidth;
